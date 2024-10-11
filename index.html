@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Waeschmarie</title>
+    <link type="text/css" rel="stylesheet" href="assets/css/bootstrap.min.css" media="">
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css" media="">
+    <link type="text/css" rel="stylesheet" href="assets/css/l2licons.css" media="">
+    <link type="text/css" rel="stylesheet" href="assets/css/fontawesome-all.css" media="">
+    <!-- Anti-flicker snippet (recommended)  -->
+    <style>
+        .async-hide {
+            opacity: 0 !important
+        }
+    </style>
+    <link rel="preload" as="font" href="assets/fonts/gothamblack-regular-webfont.woff2" type="font/woff" crossorigin="">
+    <link rel="preload" as="font" href="assets/fonts/gothamblack-regular-webfont.woff" type="font/woff" crossorigin="">
+    <link rel="preload" as="font" href="assets/fonts/gothambook-regular-webfont.woff2" type="font/woff" crossorigin="">
+    <link rel="preload" as="font" href="assets/fonts/gothambook-regular-webfont.woff" type="font/woff" crossorigin="">
+    <link rel="preload" as="font" href="assets/fonts/l2l.woff" type="font/woff" crossorigin="">
+</head>
+
+<body id="body_area">
+
+    <header class="header" id="navbar-top">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-2 col-md-12 col-12" id="logo_area">
+                    <button class="navbar-toggler float-right" type="button" data-toggle="collapse"
+                        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon text-white"></span>
+                    </button>
+                    <a class="logo" href="index.html" rel="home"><img width="180" height="" src="assets/images/name-logo.png"
+                            alt="Waeschmarie"></a>
+                    <a class="logo-fixed" href="#" rel="home"><img width="160" height="69"
+                            src="assets/images/name-logo.png" alt="Waeschmarie"></a>
+                </div>
+                <div class="col-lg-10 col-md-12 col-12 text-right" id="main_menu">
+                    <nav class="navigation navbar navbar-expand-lg" id="main-navigation" itemscope="itemscope"
+                        itemtype="http://schema.org/SiteNavigationElement">
+                        <div class="collapse navbar-collapse" id="navbarResponsive">
+                            <ul class="main-menu">
+                                <li class="active"><a href="about-us.html">About US</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Prices</a></li>
+                                <li class="sign-in">
+                                    <a href="#">Sign In</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="page-section top-section-bg d-md-flex align-items-center">
+        <div class="top-section-container container pt-md-5">
+            <div class="row align-items-center mt-0 mt-md-5">
+                <img width="610" height="500" class="img-fluid top-section-img"
+                    src="assets/images/laundry_and_dry_cleaning_service_pakistan.png" alt="">
+                <div class="col-lg-7 col-xl-6 py-lg-5 py-3 order-2 order-md-1">
+                    <h1 class="ff-gothamblack text-center text-md-left mt-md-5 mb-3">Leading Laundry<br> &amp;
+                        Dry Cleaning Service</h1>
+                    <h2 class="h5 font-weight-bold">We collect, clean &amp; return at a time and location of your
+                        choice.</h2>
+                    <div class="place-order-form">
+                        <span class="title" id="info-message"></span>
+                        <a href="#" id="btn_header_post_code_search" name="btn_header_post_code_search"
+                            class="btn btn-white btn-lg text-uppercase rounded-xl py-3 px-md-5 mb-4 mb-md-0 btn-order d-block d-md-inline-block">Schedule
+                            your pickup<span class="small d-block">In Next 60 Minutes</span></a>
+                        <p class="collection-delivery">Collection within 1 hour, next day return.<br>Highest quality and
+                            lowest price guaranteed.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="featured bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-md-3">
+                    <img width="94" height="100" class="lcn-award-image" src="assets/images/lcn-award.png"
+                        alt="LCN Award">
+                </div>
+                <div class="col-6 col-md-3">
+                    <img width="130" height="68" class="les-image" src="assets/images/london-evening-standard.png"
+                        alt="London Evening Standard">
+                </div>
+                <div class="col-6 col-md-3">
+                    <img width="97" height="100" class="bcs-image" src="assets/images/best-cleaning-service.png"
+                        alt="Best Cleaning Service">
+                </div>
+                <div class="col-6 col-md-3">
+                    <img width="97" height="100" class="price-promise-image" src="assets/images/price-promise.png"
+                        alt="Laundry Price Promise">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="how-it-work" id="hiw">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h4 class="text-center text-uppercase">Dry Cleaning &amp; Laundry Made Easy</h4>
+                    <h2 class="text-center">How Waeschmarie Works</h2>
+                </div>
+                <div class="col-6 col-lg-3 col-md-6 text-center py-3 py-md-2 dotted">
+                    <h3>Your Order</h3>
+                    <div
+                        class="how-it-work-image rounded-circle mx-auto d-flex align-items-center justify-content-center">
+                        <img src="assets/images/hw-1.png" width="100" height="80" class="img-fluid" alt="">
+                    </div><span class="how-it-work-counter">01</span>
+                    <p>Order Online or <br>from our App</p>
+                </div>
+                <div class="col-6 col-lg-3 col-md-6 text-center py-3 py-md-2 dotted">
+                    <h3>We Collect</h3>
+                    <div
+                        class="how-it-work-image rounded-circle mx-auto d-flex align-items-center justify-content-center">
+                        <img src="assets/images/hw-2.png" width="100" height="80" class="img-fluid" alt="">
+                    </div><span class="how-it-work-counter">02</span>
+                    <p>We will collect at a time<br>&amp; place that suit you</p>
+                </div>
+                <div class="col-6 col-lg-3 col-md-6 text-center py-3 py-md-2 dotted">
+                    <h3>We Clean</h3>
+                    <div
+                        class="how-it-work-image rounded-circle mx-auto d-flex align-items-center justify-content-center">
+                        <img src="assets/images/laundry-wash.png" width="100" height="80" class="img-fluid" alt="">
+                    </div><span class="how-it-work-counter">03</span>
+                    <p>We will work <br>our magic</p>
+                </div>
+                <div class="col-6 col-lg-3 col-md-6 text-center py-3 py-md-2 dotted">
+                    <h3>We Return</h3>
+                    <div
+                        class="how-it-work-image rounded-circle mx-auto d-flex align-items-center justify-content-center">
+                        <img src="assets/images/delivery-guy.png" width="100" height="80" class="img-fluid" alt="">
+                    </div><span class="how-it-work-counter">04</span>
+                    <p>We will return <br>your clean clothes</p>
+                </div>
+                <div class="col-md-12 text-center pt-3 pt-md-5 how-it-work-button">
+                    <a href="#" class="btn btn-primary btn-lg text-uppercase rounded-pill">Order Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="laundry-prices py-3 py-md-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 text-center laundry-prices-content">
+                    <h4 class="text-uppercase">FREE collection &amp; delivery</h4>
+                    <h2>Dry Cleaning &amp; Laundry Prices</h2>
+                    <p>At Waeschmarie we make doing your laundry simple. <br>We can save you time so you can enjoy
+                        doing the things you love. <br>Our dry cleaning prices are simple and affordable.</p>
+                </div>
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-6 col-sm-6 col-lg-3 py-3 py-lg-0">
+                            <div class="laundry-prices-block"><img class="laundry-prices-promise pulse"
+                                    src="assets/images/price-promise-stamp.png" width="97" height="95"
+                                    alt="Laundry Price Promise">
+                                <div class="laundry-prices-inner"><img width="70" height="86"
+                                        class="laundry-prices-image" src="assets/images/shirt.png" alt="Shirt Offer">
+                                    <div class="laundry-prices-heading">Shirt Offer</div>
+                                </div>
+                            </div>
+                            <div class="laundry-prices-text">Starting From</div>
+                            <div class="laundry-prices-amount">Rs. 150</div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-lg-3 py-3 py-lg-0">
+                            <div class="laundry-prices-block"><img class="laundry-prices-promise pulse"
+                                    src="assets/images/price-promise-stamp.png" width="97" height="95"
+                                    alt="Laundry Price Promise">
+                                <div class="laundry-prices-inner"><img width="70" height="86"
+                                        class="laundry-prices-image" src="assets/images/suits.png" alt="2 Suits">
+                                    <div class="laundry-prices-heading">2 Suits</div>
+                                </div>
+                            </div>
+                            <div class="laundry-prices-text">Only</div>
+                            <div class="laundry-prices-amount">Rs. 2700</div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-lg-3 py-3 py-lg-0">
+                            <div class="laundry-prices-block"><img class="laundry-prices-promise pulse"
+                                    src="assets/images/price-promise-stamp.png" width="97" height="95"
+                                    alt="Laundry Price Promise">
+                                <div class="laundry-prices-inner"><img width="70" height="86"
+                                        class="laundry-prices-image" src="assets/images/dress.png" alt="2 Dress">
+                                    <div class="laundry-prices-heading">2 Dress</div>
+                                </div>
+                            </div>
+                            <div class="laundry-prices-text">Only</div>
+                            <div class="laundry-prices-amount">Rs.800</div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-lg-3 py-3 py-lg-0">
+                            <div class="laundry-prices-block"><img class="laundry-prices-promise pulse"
+                                    src="assets/images/price-promise-stamp.png" width="97" height="95"
+                                    alt="Laundry Price Promise">
+                                <div class="laundry-prices-inner"><img width="70" height="86"
+                                        class="laundry-prices-image" src="assets/images/wash-dry-fold.png"
+                                        alt="Wash, Dry, Fold">
+                                    <div class="laundry-prices-heading">Wash, Dry, Fold</div>
+                                </div>
+                            </div>
+                            <div class="laundry-prices-text">Starting From</div>
+                            <div class="laundry-prices-amount">Rs. 250</div>
+                            <div class="laundry-prices-weight">Per KG</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 text-center py-3">
+                    <a href="#" class="btn btn-white btn-lg rounded-pill py-3 px-md-5 mt-0 mt-md-3">SEE ALL PRICES
+                        HERE</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="app-splash py-3 py-md-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="text-center pb-5 pb-md-0">
+                        <img width="626" height="383" class="img-fluid"
+                            src="assets/images/excellent-laundry-cleaning-quality.png"
+                            alt="Laundrette &amp; Laundromat">
+                        <a href="#" class="btn btn-white btn-lg rounded-pill py-3 px-md-5 schedule-collection">SCHEDULE
+                            A
+                            COLLECTION</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-center hidden-xs">
+                        <img width="121" height="121" class="l2l-app-icon"
+                            src="assets/images/laundry-cleaning-app-icon.png" alt="Laundrette &amp; Laundromat">
+                    </div>
+                    <div class=" text-center">
+                        <h2 class="py-2">Download our free mobile app</h2>
+                        <p class="mb-4">Free same-day collection <span class="px-0 px-lg-3">•</span> Delivery in 24h
+                            <br><br>
+                        </p>
+                        <form id="frm_app_link_inner" name="frm_app_link_inner" method="post" action="#">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <a rel="noopener noreferrer" target="_blank" class="ios d-block mb-3" href="#"><img
+                                            width="160" height="47" src="assets/images/appstore-badge.svg"
+                                            alt="Waeschmarie - iOS"></a>
+                                    <a rel="noopener noreferrer" target="_blank" class="android d-block mb-3"
+                                        href="#"><img width="160" height="47" src="assets/images/google-play-badge.png"
+                                            alt="Waeschmarie - Android"></a>
+                                </div>
+                                <div class="col-lg-6">
+                                    <img src="assets/images/qrcode.png" width="110" height="110"
+                                        alt="Install App Waeschmarie">
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="bg-light py-3 py-md-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 order-2 order-md-1 align-self-center">
+                    <h2 class="h1 mb-3 mb-md-4">Professional laundry services</h2>
+                    <p>We are passionate about delivering a hassle-free laundry service. We collect and deliver at a
+                        time and to a location that suits you and your schedule to make sure your experience is as easy
+                        as possible. When you place an order through our mobile app (iPhone or Android), you can track
+                        your laundry as it’s processed, allowing you even more peace of mind. We have extensive
+                        experience in laundry and dry cleaning, so you can be confident that your laundry will always be
+                        treated with care and professionalism. Simply place your order today to take the stress out of
+                        your laundry life.</p>
+                </div>
+                <div class="col-lg-4 align-self-center order-1 order-md-2">
+                    <img width="300" height="660" class="img-fluid ml-auto d-none d-md-block"
+                        src="assets/images/best-dry-cleaning.png" alt="">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    
+
+
+
+    <div class="packages-prices py-3 py-md-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 text-center laundry-prices-content">
+                    <h2>Packages &amp; Their Prices</h2>
+                    <p>At Waeschmarie we make doing your laundry simple. <br>We can save you time so you can enjoy
+                        doing the things you love. <br>Our dry cleaning prices are simple and affordable.</p>
+                </div>
+                <div class="col-md-12 px-5 pb-5">
+                    <div class="row">
+
+                        <div class="col-lg-4 col-md-6 col-12 mb-4">
+                            <div class="pricing__card card h-100">
+                                <div class="card-body">
+                                    <h5 class="pricing__card_title">Basic</h5>
+                                    <small class='text-muted pricing__card_label'>Individual</small>
+                                    <br><br>
+                                    <span class="h2 pricing__card_title">$8</span>/month
+                                    <br><br>
+                                    <p class="pricing__card_item">Lorem ipsum dolor sit.</p>
+                                    <p class="pricing__card_item">Lorem ipsum dolor sit.</p>
+                                    <p class="pricing__card_item">Lorem ipsum dolor sit.</p>
+                                    <p class="pricing__card_item">Lorem ipsum dolor sit.</p>
+                                    <p class="pricing__card_item">Lorem ipsum dolor sit.</p>
+                                    <div class="d-grid my-3">
+                                        <button class="btn btn-dark btn-block pricing__card_button">Select</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-4 col-md-6 col-12 mb-4">
+                            <div class="pricing__card card card__promoted h-100">
+                                <div class="card-body">
+                                    <h5 class="pricing__card_title">Standerd</h5>
+                                    <small class='text-muted pricing__card_label'>Individual</small>
+                                    <br><br>
+                                    <span class="h2 pricing__card_title">$8</span>/month
+                                    <br><br>
+                                        <p class="pricing__card_item">Lorem ipsum dolor sit.</p>
+                                        <p class="pricing__card_item">Lorem ipsum dolor sit.</p>
+                                        <p class="pricing__card_item">Lorem ipsum dolor sit.</p>
+                                        <p class="pricing__card_item">Lorem ipsum dolor sit.</p>
+                                        <p class="pricing__card_item">Lorem ipsum dolor sit.</p>
+                                    <div class="d-grid my-3">
+                                        <button class="btn btn-dark btn-block pricing__card_button">Select</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-4 col-md-6 col-12 mb-4">
+                            <div class="pricing__card card h-100">
+                                <div class="card-body">
+                                    <h5 class="pricing__card_title">Premium</h5>
+                                    <small class='text-muted pricing__card_label'>Individual</small>
+                                    <br><br>
+                                    <span class="h2 pricing__card_title">$8</span>/month
+                                    <br><br>
+                                    <p class="pricing__card_item">Lorem ipsum dolor sit.</p>
+                                    <p class="pricing__card_item">Lorem ipsum dolor sit.</p>
+                                    <p class="pricing__card_item">Lorem ipsum dolor sit.</p>
+                                    <p class="pricing__card_item">Lorem ipsum dolor sit.</p>
+                                    <p class="pricing__card_item">Lorem ipsum dolor sit.</p>
+                                    <div class="d-grid my-3">
+                                        <button class="btn btn-dark btn-block pricing__card_button">Select</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="col-md-12 text-center py-3">
+                    <a href="#" class="btn btn-white btn-lg rounded-pill py-3 px-md-5 mt-0 mt-md-3 active__btn mb-4">SEE ALL PRICES
+                        HERE</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="newsletter bg-dark d-none d-md-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-7">
+                    <h3>Join our mailing list.</h3>
+                    <p>Subscribe to our newsletter to receive special offers and company news with updates.</p>
+                </div>
+                <div class="col-md-6 col-lg-4">
+
+                    <form autocomplete="off" id="frm_subscriber" name="frm_subscriber" method="post" action="#">
+                        <div class="form-group">
+                            <div class="input-group  border-bottom mb-3">
+                                <input type="text" name="subscriber_email_address" id="subscriber_email_address"
+                                    class="form-control form-control-lg bg-transparent border-0 text-white rounded-0"
+                                    placeholder="enter email address" aria-label="enter email address">
+                                <div class="input-group-append">
+                                    <button type="submit" id="btn_subscriber" name="btn_subscriber"
+                                        class="input-group-text bg-transparent border-0 text-white"><i
+                                            class="fas fa-paper-plane fa-2x"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="footer-main-nav pt-4 pt-md-5 pb-3 pb-md-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-3 mb-3">
+                        <h4>About</h4>
+                        <ul class="list-angle-right">
+                            <li><a href="about-us.html">About Us</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">FAQ's</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">All Areas</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-3">
+                        <h4>Other</h4>
+                        <ul class="list-angle-right">
+                            <li><a href="#">Refer friends</a></li>
+                            <li><a href="#">Partner</a></li>
+                            <li><a href="#">Terms</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-3">
+                        <h4>Services</h4>
+                        <ul class="list-angle-right">
+                            <li><a href="#">Dry Cleaners Near Me</a></li>
+                            <li><a href="#">Ironing Services</a></li>
+                            <li><a href="#">Laundry Services</a></li>
+                            <li><a href="#">Corporate</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-3">
+                        <h4>Apps</h4>
+                        <ul class="list-angle-right">
+                            <li><a href="#" target="_blank">Waeschmarie iOS</a></li>
+                            <li><a href="#" target="_blank">Waeschmarie Android</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-text">
+            <div class="container">
+                <div class="row border-top copyright align-items-center">
+                    <div class="col-md-6 col-lg-6">
+                        <p>Waeschmarie © 2024. All Right Reserved.</p>
+                    </div>
+                    <div class="col-md-6 col-lg-6 text-md-right text-lg-right pt-4">
+                        <a class="mx-1" target="_blank" href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
+                        <a class="mx-1" target="_blank" href="#"><i class="fab fa-square-x-twitter fa-2x"></i></a>
+                        <a class="mx-1" target="_blank" href="#"><i class="fab fa-youtube-square fa-2x"></i></a>
+                        <a class="mx-1" target="_blank" href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                        <a class="mx-1" target="_blank" href="#"><i class="fab fa-tiktok fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <script type="text/javascript" src="assets/js/jquery-3.4.1.min.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="assets/js/script.js" charset="UTF-8"></script>
+
+
+</body>
+
+</html>

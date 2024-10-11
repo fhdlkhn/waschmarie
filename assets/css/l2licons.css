@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "l2l";
+  src:url("../fonts/l2l.eot");
+  src:url("../fonts/l2l.eot#iefix") format("embedded-opentype"),
+    url("../fonts/l2l.woff") format("woff"),
+    url("../fonts/l2l.ttf") format("truetype"),
+    url("../images/l2l.svg#l2l") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+[data-icon]:before {
+  font-family: "l2l" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="l2l-"]:before,
+[class*=" l2l-"]:before {
+  font-family: "l2l" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.l2l-alterations:before {
+  content: "\61";
+}
+.l2l-trousers:before {
+  content: "\62";
+}
+.l2l-suit:before {
+  content: "\63";
+}
+.l2l-shoe-repair:before {
+  content: "\64";
+}
+.l2l-shirts:before {
+  content: "\65";
+}
+.l2l-outdoor:before {
+  content: "\66";
+}
+.l2l-laundry:before {
+  content: "\67";
+}
+.l2l-knitewear:before {
+  content: "\68";
+}
+.l2l-iron:before {
+  content: "\69";
+}
+.l2l-home:before {
+  content: "\6a";
+}
+.l2l-dress:before {
+  content: "\6b";
+}
+.l2l-discount:before {
+  content: "\6c";
+}
+.l2l-setting:before {
+  content: "\6d";
+}
+.l2l-laundry-1:before {
+  content: "\6e";
+}
+.l2l-laundry-2:before {
+  content: "\6f";
+}
+.l2l-outdoor-1:before {
+  content: "\70";
+}
+.l2l-payment:before {
+  content: "\71";
+}
+.l2l-loyality:before {
+  content: "\72";
+}
+.l2l-duvet:before {
+  content: "\73";
+}
+.l2l-bed-linen:before {
+  content: "\74";
+}
+.l2l-alterations-1:before {
+  content: "\75";
+}
+.l2l-account:before {
+  content: "\76";
+}
+.l2l-knitewear-1:before {
+  content: "\78";
+}
+.l2l-dress-1:before {
+  content: "\79";
+}
+.l2l-shirts-1:before {
+  content: "\7a";
+}
+.l2l-dining:before {
+  content: "\41";
+}
+.l2l-shop:before {
+  content: "\42";
+}
+.l2l-shoe-repair-1:before {
+  content: "\43";
+}
+.l2l-suit-1:before {
+  content: "\44";
+}
+.l2l-street:before {
+  content: "\45";
+}
+.l2l-trousers-1:before {
+  content: "\46";
+}
+.l2l-towelling:before {
+  content: "\47";
+}
+.l2l-gift:before {
+  content: "\48";
+}
+.l2l-card-2:before {
+  content: "\49";
+}
+.l2l-card-1:before {
+  content: "\4a";
+}
+.l2l-notifications:before {
+  content: "\4b";
+}
+.l2l-bundles:before {
+  content: "\77";
+}
